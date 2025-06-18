@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Enoc pag web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .dropdown-menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .dropdown-menu li a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .dropdown-menu li:nth-child(1) a { background-color: #660000; }
+    .dropdown-menu li:nth-child(2) a { background-color: #8B0000; }
+    .dropdown-menu li:nth-child(3) a { background-color: #B22222; }
+    .dropdown-menu li:nth-child(4) a { background-color: #DC143C; }
+    .dropdown-menu li:nth-child(5) a { background-color: #FF4500; }
+    .dropdown-menu li:nth-child(6) a { background-color: #FF6347; }
+
+    .dropdown-menu li a:hover {
+      filter: brightness(1.1);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    img {
+      width: 180px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      color: #222;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 500;
+      color: #444;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+
+    h3 {
+      font-size: 18px;
+      color: #555;
+      margin-top: 20px;
+    }
+
+    p, li {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #555;
+      text-align: left;
+    }
+
+    .section {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+      text-align: left;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 15px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .dropdown-menu {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul class="dropdown-menu">
+      <li><a href="#cv">Resume / CV</a></li>
+      <li><a href="#personal-statement">Personal Statement</a></li>
+      <li><a href="#club">School Club</a></li>
+      <li><a href="#relevant-work">Relevant Work</a></li>
+      <li><a href="#interests">Personal Interests</a></li>
+      <li><a href="#admissions-video">Admissions Video</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <img src="https://i.postimg.cc/FzgXD4g4/Imagen-de-Whats-App-2025-03-12-a-las-08-29-05-08828a6b.jpg" alt="Enoc Daniel Rodriguez Jimenez">
+    <h1>Enoc Daniel Rodriguez Jimenez</h1>
+    <h2>Personal Philosophy</h2>
+    <p>"Live each day with purpose, work for what truly makes you happy, and trust God for the rest."</p>
+    <div class="section" id="cv">
+      <h2>Resume / CV</h2>
+      <p><strong>Email:</strong> A610183078@my.uvm.edu.mx</p>
+      <p><strong>Phone:</strong> 5579761479</p>
+      <p><strong>Location:</strong> Cuautitlán Izcalli, México</p>
+
+      <h3>Education</h3>
+      <ul>
+        <li>Kindergarten: CREL</li>
+        <li>Primary School: Instituto Las Américas (ILA)</li>
+        <li>6th Grade & Middle School: Lake Forest</li>
+        <li>Currently: UVM – 4th semester of high school</li>
+      </ul>
+
+      <h3>Work Experience</h3>
+      <ul>
+        <li>Founder – Pastry Business</li>
+      </ul>
+
+      <h3>Extracurricular Activities</h3>
+      <ul>
+        <li>Leaders in Action Club – Founder</li>
+        <li>Swimming – State-level competitor</li>
+        <li>Basketball – School & local leagues</li>
+      </ul>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>Spanish & English fluency, basic French & Italian</li>
+        <li>Certified in Microsoft Excel</li>
+        <li>Basic knowledge of HTML, CSS, JavaScript</li>
+        <li>Teamwork, leadership, communication</li>
+        <li>Plays piano – completed several pieces</li>
+      </ul>
+
+      <h3>Achievements</h3>
+      <ul>
+        <li>State-level swimmer</li>
+        <li>Launched pastry business</li>
+      </ul>
+    </div>
+
+    <div class="section" id="personal-statement">
+      <h2>Personal Statement</h2>
+      <h3>ESSAY: Finding Strength in Challenges</h3>
+      <p>There was a time when failure terrified me. The fear of not meeting expectations, of disappointing myself and others, often kept me from taking risks. Whether it was hesitating to raise my hand in class, delaying tasks until the last possible moment, or avoiding leadership opportunities, I let fear dictate my choices. However, one experience changed my perspective forever.</p>
+      <p>During a summer camp, I was assigned as the leader of a group of younger children, responsible for organizing activities, managing conflicts, and making sure everyone felt included. At first, I doubted myself—leading others seemed overwhelming, and I was afraid I wouldn’t be capable of handling it. But as the days went by, I realized that leadership isn’t about being perfect; it’s about adaptability, communication, and learning through experience.</p>
+      <p>This experience taught me resilience, patience, and problem-solving skills. I learned how to listen, motivate, and support others, and I saw firsthand the impact of a strong leader. The challenges I faced—helping shy kids feel comfortable, handling disagreements, and ensuring the team worked together—gave me a new sense of confidence. I understood that stepping up, even when uncertain, is what creates true growth.</p>
+      <p>Of course, my journey wasn’t without struggles. Procrastination and self-doubt often crept in, making me question my ability to succeed. But instead of retreating, I faced my fears head-on. I learned the value of time management, self-confidence, and embracing failure as part of success. When I finally understood that failing wasn’t an end but a beginning, I started pushing my limits, seeking new challenges, and embracing opportunities to grow.</p>
+      <p>Now, I am eager to bring this mindset to university life. I look forward to joining student organizations that align with my passions, engaging in leadership roles, and contributing to a community that values growth and resilience. College isn’t just about learning; it’s about becoming. I want to make the most of the resources available, collaborate with inspiring peers, and develop the skills necessary for my future career.</p>
+      <p>I know that university will present new obstacles, but I welcome them. Because now, I understand that failure isn’t something to fear—it’s something to learn from. And with that mindset, I am ready to thrive.</p>
+    </div>
+    <div class="section" id="club">
+      <h2>School Club: Leaders in Action</h2>
+      <p>The Leaders in Action Club focuses on leadership, teamwork, and positive impact. We organize volunteer events, workshops, and expert talks. With structured roles like president, vice president, and event coordinators, the club helps students grow and strengthen their university profile.</p>
+    </div>
+
+    <div class="section" id="relevant-work">
+      <h2>Relevant Work</h2>
+      <ul>
+        <li>Reached state-level in swimming</li>
+        <li>Founder and manager of a pastry business</li>
+      </ul>
+    </div>
+
+    <div class="section" id="interests">
+      <h2>Personal Interests</h2>
+      <p>I’m passionate about sports, especially swimming and basketball. I also love baking, which led me to start my own pastry business. I play the piano as well, and have completed several technical and expressive pieces that bring me both challenge and joy.</p>
+    </div>
+
+<div class="section" id="admissions-video">
+  <h2>Admissions Video</h2>
+  <video width="100%" height="400" controls>
+    <source src="admissions.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p>If the video doesn't play, make sure the file <strong>admissions.mp4</strong> is in the same folder as this HTML file.</p>
+</div>
+  </div> <!-- cierra el contenedor principal -->
+</body>
+</html>
